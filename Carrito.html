@@ -1,0 +1,175 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Carrito</title>
+    <link rel="stylesheet" href="Estilo_carrito.css">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC" crossorigin="anonymous">
+    
+</head>
+<body>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/js/bootstrap.bundle.min.js" integrity="sha384-MrcW6ZMFYlzcLA8Nl+NtUVF0sA7MsXsP1UyJoMp4YLEuNSfAP+JcXn/tWtIaxVXM" crossorigin="anonymous"></script>
+    <header>
+      <nav id="nav-principal" class="navbar navbar-dark navbar-expand-lg">
+          <div id="logo">
+            <a href="inicio.html">
+              <img src="Imagenes/logo.png" alt="logo" height="40">
+              <a href="#" class="navbar-brand">PET SHOP</a>
+          </div></a>
+          <!--Botón del navbar responsivo-->
+          <button class="navbar-toggler" data-bs-toggle="collapse" data-bs-target="#nav-links"
+              aria-label="Toggle navbar">
+              <span class="navbar-toggler-icon"></span>
+          </button>
+
+          <!--Items principales del navbar con sesion iniciada-->
+          <div class="collapse navbar-collapse" id="nav-links">
+              <ul class="navbar-nav mr-auto">
+                  <li class="nav-item">
+                      <a class="nav-link" href="inicio.html">Inicio</a>
+                  </li>
+                  <li class="nav-item">
+                      <a class="nav-link" href="Historial.html">Historial compras</a>
+                  </li>
+                  <li class="nav-item">
+                      <a class="nav-link" href="#tarjetas">Accesorios</a>
+                  </li>
+                  <li class="nav-item">
+                      <a class="nav-link" href="suscribirse.html">Suscribirse</a>
+                  </li>
+              </ul>
+
+              <div id="media">
+                  <ul class="navbar-nav">
+                      <li id="facebook" class="nav-item">
+                          <a class="nav-link" href="https://www.facebook.com/" target="_blank">
+                              <i><img src="Imagenes/logo_facebook.png" alt="facebook" height="28"></i>
+                          </a>
+                      </li>
+                      <li id="instagram" class="nav-item">
+                          <a class="nav-link" href="https://www.instagram.com/?hl=es" target="_blank">
+                              <i><img src="Imagenes/logo_instagram.png" alt="instagram" height="28"></i>
+                          </a>
+                      </li>
+                      <li class="nav-item">
+                          <a class="nav-link" href="Carrito.html">
+                              <i><img src="Imagenes/logo_carrito.png" alt="carrito" height="28"></i>
+                          </a>
+                      </li>
+                      <li class="nav-item">
+                          <a class="nav-link" href="login.html">
+                              <i><img src="Imagenes/no_logeado_2.png" alt="logeado" height="28"></i>
+                          </a>
+                      </li>
+                  </ul>
+              </div>
+              <div id="buscador">
+                  <form class="d-flex">
+                      <input class="form-control me-2" type="search" placeholder="Buscar" aria-label="Search">
+                      <button class="btn btn-outline-light" type="submit">Buscar</button>
+                  </form>
+              </div>
+          </div>
+      </nav>
+  </header>
+    <div class="carro">
+        <h4>Mi Carro</h4> <img src="Imagenes/logo_carrito.png" alt="">
+        <div class="card mb-3" style="max-width: 540px;">
+            <div class="row g-0">
+              <div class="col-md-4">
+                <img src="Imagenes/carta_1.jpg" class="img-fluid rounded-start" alt="...">
+              </div>
+              <div class="col-md-8">
+                <div class="card-body">
+                  <h5 class="card-title">Correa de Perro</h5>
+                  <p class="card-text">$15.990</p>
+                  <p class="cantidad">x1</p>
+                  <input type="submit" value="Eliminar" class="btn btn-danger btn-md">      
+                  <input type="submit" value="Agregar" class="btn btn-success btn-md">
+                  
+                </div>
+              </div>
+            </div>
+          </div>
+          <div class="card mb-3" style="max-width: 540px;">
+            <div class="row g-0">
+              <div class="col-md-4">
+                <img src="Imagenes/carta_2.jpg" class="img-fluid rounded-start" alt="...">
+              </div>
+              <div class="col-md-8">
+                <div class="card-body">
+                  <h5 class="card-titlee">Pelota tenis de juguete</h5>
+                  <p class="card-texte">$12.990</p>
+                  <p class="cantidad">x1</p>
+                  <input type="submit" value="Eliminar" class="btn btn-danger btn-md">      
+                  <input type="submit" value="Agregar" class="btn btn-success btn-md">
+                </div>
+              </div>
+            </div>
+          </div>
+          <div class="total">
+        <div class="row">
+        <div class="detalle">
+            <h5>Detalles de la compra</h5>
+            <hr>
+            <div class="price detalle">
+                <div class="asldkjas">
+                    <p>SubTotal : $28.980</p>
+                    <p>Costo envio : $5.000</p>
+                    <hr>
+                    <p>Total : $33.980</p>
+                    <input type="submit" value="Comprar" class="boton">
+                </div>
+            </div>
+        </div>
+    </div>
+      </div>
+    </div>
+    <footer class="footer">
+      <div class="container">
+          <div class="row">
+              <div class="footer-col col">
+                  <h4>Nosotros</h4>
+                  <ul>
+                      <li><a href="">Quienes Somos</a></li>
+                      <li><a href="">Donar</a></li>
+                      <li><a href="">Términos y Condiciones</a></li>
+                  </ul>
+              </div>
+              <div class="footer-col col">
+                  <h4>Contacto</h4>
+                  <ul>
+                      <li><a href="https://www.google.com/intl/es-419/gmail/about/"
+                              target="_blank">pet.shop@gmail.com</a></li>
+                      <li><a href="https://web.whatsapp.com/" target="_blank">+56 9 1234 5678</a></li>
+                      <li><a href="https://www.google.com/maps/place/Duoc+UC:+Sede+Melipilla/
+                          @-33.6951575,-71.215895,17z/data=!4m9!1m2!2m1!1sduocmelipilla!3m5!1s
+                          0x966255eae610cb2f:0xc3fdb55ead51065b!8m2!3d-33.694217!4d-71.2137347
+                          !15sCg1kdW9jbWVsaXBpbGxhkgEadm9jYXRpb25hbF90cmFpbmluZ19zY2hvb2w"
+                              target="_blank">Av. Plaza Centenario 123</a></li>
+                  </ul>
+              </div>
+              <div class="footer-col col">
+                  <h4>Métodos de Pago</h4>
+                  <div class="metodo-pago">
+                      <img src="Imagenes/metodo_pago.png" alt="metodo-pago" height="20">
+                  </div>
+              </div>
+              <div class="footer-col col">
+                  <h4>Síguenos</h4>
+                  <div class="redes-sociales">
+                      <a href="https://www.facebook.com/" target="_blank"><img src="Imagenes/logo_facebook.png"
+                              alt="logo-faceook-footer" height="25"></a>
+                      <a href="https://www.instagram.com/?hl=es" target="_blank"><img
+                              src="Imagenes/logo_instagram.png" alt="logo-insta-footer" height="25"></a>
+                  </div>
+              </div>
+          </div>
+
+      </div>
+
+  </footer>
+</body>
+</html>

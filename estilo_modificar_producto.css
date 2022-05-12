@@ -1,0 +1,150 @@
+* {
+    font-family: 'Noto Sans', sans-serif;
+    margin: 0;
+}
+
+/* Nav bar*/
+
+#nav-principal {
+    background-color: #18a85f;
+    font-size: 1rem;
+    font-weight: bold;
+}
+
+#nav-principal .nav-link:hover {
+    font-weight: 600;
+    transition: transform 0.1s ease-in-out;
+    letter-spacing: 0;
+}
+
+#menu-desplegable-productos {
+    background-color: #18a85f;
+    width: 50px;
+    border: none;
+}
+
+#menu-desplegable-productos a {
+    font-weight: 500;
+    color: #FFF;
+}
+
+#menu-desplegable-productos a:hover {
+    color: #18a85f;
+    font-weight: 600;
+}
+
+#logo {
+    margin-left: 20px;
+}
+
+#media{
+    margin: auto;
+}
+
+#buscador {
+    margin: auto;
+}
+
+/* Inicio codigo "contenido"*/
+
+#contenido {
+    margin-left: 8%;
+    margin-right: 8%;
+}
+
+
+#crud {
+    margin-top: 3%;
+}
+
+#agregar-producto {
+    margin-bottom: 5%;
+}
+
+#contenido>#crud>h3>img {
+    width: 1px;
+    height: 1px;
+}
+
+#botones-crud {
+    padding-top: 20px;
+    display: flex;
+    justify-content: center;
+}
+
+::placeholder{
+    font-weight: 200;
+}
+
+.feedback {
+    font-size: 13px;
+    font-weight: bold
+}
+
+/* Inicio codigo footer*/
+
+.container {
+    max-width: 1170px;
+    margin: auto;
+}
+
+.row {
+    display: flex;
+    flex-wrap: wrap;
+}
+
+.footer ul {
+    list-style: none;
+}
+
+.footer {
+    background-color: #2c2c2c;
+    padding: 70px 0;
+}
+
+.footer-col {
+    width: 25%;
+    padding: 0 15px;
+}
+
+.footer-col h4 {
+    font-size: 20px;
+    color: #FFF;
+    text-transform: capitalize;
+    margin-bottom: 30px;
+    font-weight: 500;
+    position: relative;
+}
+
+.footer-col ul li {
+    margin-bottom: 10px;
+}
+
+.footer-col ul li a {
+    color: #FFF;
+    display: block;
+    text-decoration: none;
+}
+
+.footer-col ul li a:hover {
+    font-weight: 600;
+}
+
+.footer-col .redes-sociales a img {
+    margin-left: 5px;
+    margin-right: 10px;
+}
+
+/* Responsivo footer*/
+@media(max-width: 767px) {
+    .footer-col {
+        width: 50%;
+        margin-bottom: 30px;
+    }
+}
+
+@media(max-width: 574px) {
+    .footer-col {
+        width: 100%;
+    }
+}
